@@ -28,7 +28,7 @@ export const ContactList = () => {
     <ContactsList>
       {contacts.map(({ id, name, number }) => (
         <ContactsItem key={id}>
-          <AiOutlinePhone color="rgb(73, 136, 195)" />
+          <AiOutlinePhone color="rgb(214, 41, 119)" />
           <ContactsName>
             {name}:<ContactsNumber>{number}</ContactsNumber>
           </ContactsName>

@@ -15,11 +15,13 @@ export const ContactsItem = styled.li`
     align-items: center;
     justify-content: center;
     gap: 30px;
+    border: 1px solid rgb(214, 41, 119);
 `;
 export const ContactsName = styled.p`
-    font-size: 17px;
+    width: 230px;
+    font-size: 20px;
     font-weight: bold;
-    color: rgb(73, 136, 195);
+    color: rgb(235, 226, 226);
 `;
 export const ContactsNumber = styled.span`
     padding-left: 10px;
@@ -30,7 +32,7 @@ export const Button = styled.button`
     justify-content: center;
     align-items: center;
     align-self: center;
-    padding: 15px 25px;
+    padding: 15px 30px;
     background-color: rgb(214, 41, 119);
     color: rgb(235, 226, 226);
     border: none;
