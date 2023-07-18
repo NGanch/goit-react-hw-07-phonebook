@@ -19,7 +19,7 @@ export const ContactContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 600px;
+    width: 660px;
     align-items: center;
     justify-content: center;
     border: 4px solid rgb(173 89 227);

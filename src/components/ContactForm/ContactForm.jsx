@@ -50,6 +50,8 @@ export function ContactForm() {
         // Очистка полів
     setName('');
     setPhone('');
+    console.log(name);
+    console.log(phone);
 
   };
 //   //---- Опрацювання полів форми -----
@@ -64,6 +66,7 @@ export function ContactForm() {
         <AiOutlineUserAdd />
         Name
         <InputName
+        id="name"
           type="text"
           name="name"
           value={name}
@@ -77,6 +80,7 @@ export function ContactForm() {
         <AiOutlinePhone />
         Number
         <InputNumber
+        id="number"
           type="tel"
           name="phone"
           value={phone}

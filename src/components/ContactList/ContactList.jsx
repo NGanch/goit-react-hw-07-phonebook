@@ -26,11 +26,11 @@ export const ContactList = () => {
 
   return (
     <ContactsList>
-      {contacts.map(({ id, name, number }) => (
+      {contacts.map(({ id, name, phone }) => (
         <ContactsItem key={id}>
           <AiOutlinePhone color="rgb(214, 41, 119)" />
           <ContactsName>
-            {name}:<ContactsNumber>{number}</ContactsNumber>
+            {name}:<ContactsNumber>{phone}</ContactsNumber>
           </ContactsName>
           <Button type="button" onClick={() => handleContactDelete(id)}>
             Delete <AiOutlineUserDelete align-self="center" />
